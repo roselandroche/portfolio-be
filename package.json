@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
     "@sendgrid/mail": "^7.1.1",
     "dotenv": "^8.2.0",
     "helmet": "^3.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
